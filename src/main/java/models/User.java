@@ -4,7 +4,7 @@ public class User {
 
     private Long id;
     private String name;
-    private String firstname;
+    private String surname;
     private String email;
     private String phone;
     private String password;
@@ -17,12 +17,12 @@ public class User {
         this.name = name;
     }
 
-    public String getFirstname() {
-        return firstname;
+    public String getSurname() {
+        return surname;
     }
 
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
+    public void setSurname(String firstname) {
+        this.surname = firstname;
     }
 
     public String getEmail() {
