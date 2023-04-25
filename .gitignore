@@ -32,6 +32,6 @@ build/
 ### VS Code ###
 .vscode/
 
-### Sensitive Data ###
-src/main/resources/application.properties
+##ENV
+env.properties
 
