@@ -19,7 +19,7 @@ async function getUsers(){
     users.map((e) =>{
      let btnDelete = '<a href="#" onclick="deleteUser('+ e.id +')"class="btn btn-danger btn-circle btn-sm"><i class="fas fa-trash"></i></a>'
 
-       usersList += '<tr> <td>#'+ e.id +'1</td><td>'
+       usersList += '<tr> <td>#'+ e.id +'</td><td>'
                         + e.name + ' '
                         + e.surname +'</td><td>'
                         + e.email + '</td><td>'
