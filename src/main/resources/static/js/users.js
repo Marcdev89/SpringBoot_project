@@ -23,8 +23,8 @@ async function getUsers(){
                         + e.name + ' '
                         + e.surname +'</td><td>'
                         + e.email + '</td><td>'
-                        + e.phone
-                        + '</td> <td>' + btnDelete + '</td></tr>>';
+                        + (e.phone == null ? '-' : e.phone)
+                        + '</td> <td>' + btnDelete + '</td></tr>';
 
     })
 
