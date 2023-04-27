@@ -23,11 +23,9 @@ async function newUser(){
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify({data})
+        body: JSON.stringify(data)
     });
-    console.log(data.email)
-
-
-
+    alert("Your account has been created successfully");
+    window.location.href = 'login.html'
 }
 
