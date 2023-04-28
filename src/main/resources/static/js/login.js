@@ -18,7 +18,9 @@ async function login(){
     });
 
     const response = await request.text();
-    if (response == 'OK'){
+    if (response != 'FAIL'){
+    localStorage.setItem('token',response);
+    localStorage.setItem('email',data.email);
     window.location.href='users.html'}else{
     alert("Email or Password are not correct")}
 
