@@ -11,5 +11,5 @@ public interface IUser {
 
     void register(User user);
 
-   boolean verifyEmailPassword(User user);
+   User getUserByCredentials(User user);
 }
