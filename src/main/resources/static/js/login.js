@@ -21,7 +21,10 @@ async function login(){
     if (response != 'FAIL'){
     localStorage.setItem('token',response);
     localStorage.setItem('email',data.email);
-    window.location.href='users.html'}else{
+    window.location.href='users.html'
+    console.log(response)
+    console.log(request)
+    }else{
     alert("Email or Password are not correct")}
 
 }
